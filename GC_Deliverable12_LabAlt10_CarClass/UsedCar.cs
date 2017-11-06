@@ -22,7 +22,7 @@ namespace GC_Deliverable12_LabAlt10_CarClass
 
         public override string ToString()
         {
-            return base.ToString() + $"";
+            return base.ToString() + $" (used) {mileage, 0:n0}";
         }
     }
 }

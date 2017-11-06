@@ -54,7 +54,7 @@ namespace GC_Deliverable12_LabAlt10_CarClass
 
         public override string ToString()
         {
-            return $"{make} {model} {year} {price, 8:C}";
+            return $"{make, -10} {model, -10} {year} {price, 15:C}";
         }
     }
 }
